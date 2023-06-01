@@ -271,37 +271,37 @@ header {
 }
 
 // business Form 
-.BussinessWrapper{
+.whiteBox{
     border: 1px solid #eee;
     min-height: 200px;
     padding: 20px 30px;
     background-color: $white;
     margin-bottom: 30px;
-    .formGroup{
-        .form-label{
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-        .form-control{
-            border-radius: 4px;
-            color: $primaryDarkGray;
-            font-size: 14px;
-        }
-        .info{
-            font-size: 12px;
-            padding-top: 6px;
-            padding-left: 20px;
-            position: relative;
-            &::after{
-                content: "";
-                position: absolute;
-                top: 7px;right: 0;left: 0;bottom: 0;
-                height: 15px;
-                width: 15px;
-                background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99992 0.333252C3.31763 0.333252 0.333252 3.31763 0.333252 6.99992C0.333252 10.6822 3.31763 13.6666 6.99992 13.6666C10.6822 13.6666 13.6666 10.6822 13.6666 6.99992C13.6666 3.31763 10.6822 0.333252 6.99992 0.333252ZM6.99992 12.4166C4.01294 12.4166 1.58325 9.98664 1.58325 6.99992C1.58325 4.0132 4.01294 1.58325 6.99992 1.58325C9.9869 1.58325 12.4166 4.0132 12.4166 6.99992C12.4166 9.98664 9.9869 12.4166 6.99992 12.4166ZM8.04159 9.08325H7.62492V6.79159C7.62492 6.44784 7.34627 6.16659 6.99992 6.16659H6.16659C5.82284 6.16659 5.54159 6.44784 5.54159 6.79159C5.54159 7.13534 5.82284 7.41659 6.16659 7.41659H6.37492V9.08325H5.95825C5.6145 9.08325 5.33325 9.3645 5.33325 9.70825C5.33325 10.052 5.6145 10.3333 5.95825 10.3333H8.04159C8.38664 10.3333 8.66659 10.0533 8.66659 9.70825C8.66659 9.3632 8.38794 9.08325 8.04159 9.08325ZM6.99992 5.33325C7.46008 5.33325 7.83325 4.96007 7.83325 4.49992C7.83325 4.03976 7.46008 3.66659 6.99992 3.66659C6.53976 3.66659 6.16659 4.03898 6.16659 4.49992C6.16659 4.96086 6.53898 5.33325 6.99992 5.33325Z' fill='%23007ACB'/%3E%3C/svg%3E");
-                background-position:center;background-repeat: no-repeat; background-size: cover;
-            }
+}
+.formGroup{
+    .form-label{
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .form-control{
+        border-radius: 4px;
+        color: $primaryDarkGray;
+        font-size: 14px;
+    }
+    .info{
+        font-size: 12px;
+        padding-top: 6px;
+        padding-left: 20px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 7px;right: 0;left: 0;bottom: 0;
+            height: 15px;
+            width: 15px;
+            background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99992 0.333252C3.31763 0.333252 0.333252 3.31763 0.333252 6.99992C0.333252 10.6822 3.31763 13.6666 6.99992 13.6666C10.6822 13.6666 13.6666 10.6822 13.6666 6.99992C13.6666 3.31763 10.6822 0.333252 6.99992 0.333252ZM6.99992 12.4166C4.01294 12.4166 1.58325 9.98664 1.58325 6.99992C1.58325 4.0132 4.01294 1.58325 6.99992 1.58325C9.9869 1.58325 12.4166 4.0132 12.4166 6.99992C12.4166 9.98664 9.9869 12.4166 6.99992 12.4166ZM8.04159 9.08325H7.62492V6.79159C7.62492 6.44784 7.34627 6.16659 6.99992 6.16659H6.16659C5.82284 6.16659 5.54159 6.44784 5.54159 6.79159C5.54159 7.13534 5.82284 7.41659 6.16659 7.41659H6.37492V9.08325H5.95825C5.6145 9.08325 5.33325 9.3645 5.33325 9.70825C5.33325 10.052 5.6145 10.3333 5.95825 10.3333H8.04159C8.38664 10.3333 8.66659 10.0533 8.66659 9.70825C8.66659 9.3632 8.38794 9.08325 8.04159 9.08325ZM6.99992 5.33325C7.46008 5.33325 7.83325 4.96007 7.83325 4.49992C7.83325 4.03976 7.46008 3.66659 6.99992 3.66659C6.53976 3.66659 6.16659 4.03898 6.16659 4.49992C6.16659 4.96086 6.53898 5.33325 6.99992 5.33325Z' fill='%23007ACB'/%3E%3C/svg%3E");
+            background-position:center;background-repeat: no-repeat; background-size: cover;
         }
     }
 }
