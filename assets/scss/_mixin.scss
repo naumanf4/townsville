@@ -1,0 +1,34 @@
+$gutter-left:50px;
+$gutter-right:50px;
+@mixin gutter ($left:$gutter-left, $right:$gutter-right, $padding: true, $margin: false, $absolute: false){
+    @if $padding {
+        padding-left:$left;padding-right:$right;
+        @media (max-width:$ipadPro-device){
+            padding-left:calc($gutter-left / 1.5);padding-right:calc($gutter-right / 1.5);
+        }
+        @media (max-width:$phones){
+            padding-left:15px;padding-right:15px;
+        }
+    }
+    @if $margin {
+        margin-left:$left;margin-right:$right;
+        @media (max-width:$medium-device){
+            margin-left:calc($gutter-left / 1.5);margin-right:calc($gutter-right / 1.5);
+        }
+        @media (max-width:$phones){
+            margin-left:15px;margin-right:15px;
+        }
+    }
+    @if $absolute{
+        .owl-prev{right:auto;left:$left;}
+        .owl-next{right:$right;left:auto;}
+        @media (max-width:$medium-device){
+            .owl-prev{right:auto;left:calc($gutter-left / 1.5);}
+            .owl-next{right:calc($gutter-right / 1.5);left:auto;}
+        }
+        @media (max-width:$phones){
+            .owl-prev{right:auto;left:20px;}
+            .owl-next{right:20px;left:auto;}
+        }
+    }
+}
