@@ -382,82 +382,61 @@ header .logo img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* file upload */
 .darg-drop .et_pb_contact_form_label {
-	display: block;
-	color: black;
-	font-weight: 500;
+  display: block;
+  color: #000;
+  font-weight: 500;
   text-align: center;
-	font-size: 16px;
-	padding-bottom: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
   padding: 50px;
 }
-.light-font{
-  font-weight: 500;
+.darg-drop input[id=et_pb_contact_brand_file_request_0] {
+  display: none;
 }
-.max-legth{
-  font-size: 12px;
-  display: block;
-  font-weight: 500;
-    margin-top: 12px;
-}
-.darg-drop input[id="et_pb_contact_brand_file_request_0"] {
-	display: none;
-}
-.darg-drop label[for="et_pb_contact_brand_file_request_0"] {
-	background: #fff;
-	/* height: 145px;
-	background-image: url('https://image.flaticon.com/icons/svg/126/126477.svg');
-	background-repeat: no-repeat;
-	background-position: top 18px center;
-	
-  background-size: 7%;
-	color: transparent; */
+.darg-drop label[for=et_pb_contact_brand_file_request_0] {
+  background: #fff;
   margin: auto;
-	width: 100%;
-  /* top: 50%;
-  left: 0;
-  right: 0;
-  position: absolute;
-  transform: translateY(-50%); */
-	border: 1px solid #a2a1a7;
-	box-sizing: border-box;
-}
-
-
-.darg-drop label[for="et_pb_contact_brand_request_0"]:after {
-	content: " (Provide link or Upload files if you already have guidelines)";
-	font-size: 12px;
-	letter-spacing: -0.31px;
-	color: #7a7a7a;
-	font-weight: normal;
-}
-.darg-drop label[for="et_pb_contact_design_request_0"]:after {
-	content: " (Provide link or Upload design files)";
-	font-size: 12px;
-	letter-spacing: -0.31px;
-	color: #7a7a7a;
-	font-weight: normal;
-}
-.darg-drop label[for="et_pb_contact_brand_file_request_0"].changed, 
-.darg-drop label[for="et_pb_contact_brand_file_request_0"]:hover {
-  background-color: #e3f2fd;
-}
-.darg-drop label[for="et_pb_contact_brand_file_request_0"] {
+  width: 100%;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
   cursor: pointer;
   transition: 400ms ease;
 }
-.darg-drop .file_names {
-	display: block;
-	/* position: absolute; */
-	color: black;
-	/* left: 0;
-	bottom: -30px; */
-	font-size: 13px;
-	font-weight: 300;
+.darg-drop label[for=et_pb_contact_brand_request_0]:after {
+  content: " (Provide link or Upload files if you already have guidelines)";
+  font-size: 12px;
+  letter-spacing: -0.31px;
+  color: #7a7a7a;
+  font-weight: normal;
+}
+.darg-drop label[for=et_pb_contact_design_request_0]:after {
+  content: " (Provide link or Upload design files)";
+  font-size: 12px;
+  letter-spacing: -0.31px;
+  color: #7a7a7a;
+  font-weight: normal;
 }
 .darg-drop .file_names {
+  display: block;
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
   text-align: center;
+}
+
+.light-font {
+  font-weight: 500;
+}
+
+.max-legth {
+  font-size: 12px;
+  display: block;
+  font-weight: 500;
+  margin-top: 12px;
+  color: #7a7a7a;
 }
 
 /*# sourceMappingURL=style.css.map */
